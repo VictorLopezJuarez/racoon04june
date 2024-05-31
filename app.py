@@ -4,13 +4,13 @@ from langchain_helper import get_qa_chain, create_vector_db
 st.title("EMILDAI CHATBOT")
 
 # Function to update the knowledge base
-def update_kb():
-    create_vector_db()
-    st.write("Knowledge base updated!")
+#def update_kb():
+#    create_vector_db()
+#    st.write("Knowledge base updated!")
 
 # Button to update the knowledge base
-if st.button("Update the Knowledge base"):
-    update_kb()
+#if st.button("Update the Knowledge base"):
+#    update_kb()
 
 # Text input for the question
 question = st.text_input("Question: ")
